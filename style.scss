@@ -217,6 +217,7 @@ body {
                     border-radius: 2rem;
                     transition: 300ms ease-in-out;  
                     background-image: linear-gradient(43deg, #161616 0%, #161616 100%);
+                    text-decoration: none;
                     cursor: pointer;
 
                         &:hover {
@@ -326,7 +327,6 @@ body {
     cursor: pointer;
 
     svg {
-        vertical-align: center;
         fill: #C850C0 !important;
         transition: 300ms ease-in-out;
     }

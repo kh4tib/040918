@@ -156,6 +156,7 @@ body {
       border-radius: 2rem;
       transition: 300ms ease-in-out;
       background-image: linear-gradient(43deg, #161616 0%, #161616 100%);
+      text-decoration: none;
       cursor: pointer; }
       .content__details .details__cta .cta__message:hover {
         background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 100%);
@@ -226,7 +227,6 @@ body {
   transition: 300ms ease-in-out;
   cursor: pointer; }
   .js-like-clicked svg {
-    vertical-align: center;
     fill: #C850C0 !important;
     transition: 300ms ease-in-out; }
   .js-like-clicked:hover {
